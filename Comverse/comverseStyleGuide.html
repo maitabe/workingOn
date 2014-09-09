@@ -8,40 +8,45 @@
         <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-      <h1>Style Guide</h1>
+      <div class="container">
+      <h1>Style Guide - Comverse</h1>
       
-      <h2>LOGO</h2>
+      <h2>Logo</h2>
       
       <div class="brand">
            <a href="#">
-            <img src="comverseLogo.jpg" alt="Comverse Logo">  
+               <img src="img/logoComverse.png" alt="Comverse"> 
           </a> 
       </div>
       
       <h2>Navigation</h2>
-      <nav >
-          <ul>
-            <li>menu1</li>
-            <li>menu2</li>
-            <li>menu3</li>
-            <li>menu4</li>
+          
+      <h3>Main menu</h3>  
+
+          <ul class="navList">
+            <li><a href="#" target="_parent">menu1</a></li>
+            <li><a href="#" target="_parent">menu2</a></li>
+            <li><a href="#" target="_parent">menu3</a></li>
+            <li><a href="#" target="_parent">menu4</a></li>
           </ul>
-      </nav>
-      <h2>Language/Login</h2>
+        
+
+      <h3>Menu small</h3>
       
-      <div>
-        <ul>
-            <li class="dropdown???">EN</li>  <!-- how to insert the rest of the languages  read - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu-->
-            <li class="separator">|</li>
-            <li><a href="login.html">Customer login</a></li>
-        </ul>
-      </div>
+          <ul class="loginMenu">
+            <li><a href="#" target="_parent">menu1</a></li>
+            <li class="header-menu-seperator">|</li>
+            <li><a href="#" target="_parent">menu2</a></li>
+          </ul>
+
+      <h3>List Menu</h3>
+      
       
       <h2>Search box</h2>
       
       <div> <!-- Could it be form tag?-->
         <input type="text" name="search" placeholder="Search" value="Search" >
-          <img src="magnifier.jpg"
+          <img src="magnifier.jpg" />
       </div>
       
     <!-----  Headings ---->
@@ -89,6 +94,7 @@
        </div>
           
 
+      </div> <!--this div close container-->
 
  </body>
 </html>
